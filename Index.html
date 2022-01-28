@@ -1,28 +1,38 @@
 <!DOCTYPE html>
   <html>
     <head>
-      <title>Robert Hanks</title>
+      <title>My Portfolio</title>
       <link rel="stylesheet" href="/Resources/CSS/style.css">
     </head>
+
     <body>
       <nav>
-        <ul>
+        <ul class="navbar">
           <li>
-            About Me
+            <a href=#about>About Me</a>
           </li>
           <li>
-            Projects
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
           </li>
           <li>
             Contact
           </li>
         </ul>
       </nav>
+
       <h1>Robert Hanks</h1>
-      <h2>About Me</h2>
+
+      <figure class="tux">
+        <img src="/Resources/Images/TuxPenguin.png" alt="Tux Penguin">
+      </figure>
+
+      <h2 id="about">About Me</h2>
       <p>
         Hello! My name is Robert Hanks, and for the past nine years I have been a Mathematics Instructor .
-        I was recently introduced to coding when my wife decided to change careers, and have been doing so recreationally for a few months now.
+        I was recently introduced to coding when my wife decided to change careers, and have been teaching myself recreationally for a few months now.
       </p>
       <p>
         What I have learned so far has been self taught with the help of Mimo and CodeCademy.
@@ -32,5 +42,21 @@
         I don't have any major projects under my belt yet - instead I have enjoyed coding challenges found on sites such as <a href="https://www.codewars.com">CodeWars</a>.
         Below you will find some of those challenges I am most proud of.
       </p>
+
+      <h2 id="projects">Projects</h2>
+      <ul>
+        <li>
+          Rail Fence Cipher
+        </li>
+        <li>
+          Archery Tournament
+        </li>
+        <li>
+          Snail Spiral
+        </li>
+      </ul>
+
+      <h2 id="skills">Skills</h2>
+      <img src="/Resources/Images/Skills.png" alt="HTML, CSS, JS">
     </body>
   </html>
